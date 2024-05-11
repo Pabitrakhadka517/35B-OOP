@@ -42,7 +42,7 @@ public class JumpStatement {
     System.out.println("Labeled Break");
     /* Labeled Break */
     outerLoop: for(int outer=0; outer < 2; outer ++){
-        innerLoop: for(int inner=0; inner<=5; inner ++){
+         for(int inner=0; inner<=5; inner ++){
             if(inner ==2){
                 break outerLoop; // this will break the loop with the label
             }
