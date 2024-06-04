@@ -7,7 +7,7 @@ public class InputOutput {
     public static void main(String[] args) {
         // /* User output
         // System.out.println("Print next line");
-        // "Sout" for bshortcut
+        // "Sout" for shortcut
         //  */ 
         // System.out.println("This string breaks line");
         // /*System.out.print */
@@ -46,11 +46,3 @@ public class InputOutput {
 
 
 
-
-// import java.util.Scanner;
-
-// public class InputOutput{
-//     public static void main(String[] args) {
-        
-//     }
-// }
