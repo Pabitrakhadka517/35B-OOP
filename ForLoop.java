@@ -3,17 +3,17 @@ public class ForLoop {
         /* For loop takes initialization
          * condition
          * modify/update */
-         for(int index=0; index<=5; index ++){
-            System.out.println(" For Index" + index);
-         }
-         /* can use different update lodic like
-          * for(int index=0; index<=5 ; index +=3) */
+        //  for(int index=0; index<=5; index ++){
+        //     System.out.println(" For Index" + index);
+        //  }
+        //  /* can use different update logic like
+        //   * for(int index=0; index<=5 ; index +=3) */
 
-          /* Using decrement */          
-          for(int index=10; index>=0; index --){
-            System.out.println("For Index Decrement" + index);
+        //   /* Using decrement */          
+        //   for(int index=10; index>=0; index --){
+        //     System.out.println("For Index Decrement" + index);
 
-          }
+        //   }
 
           /* Task
         * make  multiplication table of 2
@@ -25,20 +25,20 @@ public class ForLoop {
         * Note: Loop from 1 to 10 and multily th index
          */
 
-         for (int index=1; index<=10; index++){
-            System.out.println("2 *" + index + "=" + index * 2);
-         }
+        //  for (int index=1; index<=10; index++){
+        //     System.out.println("2 *" + index + "=" + index * 2);
+        //  }
            
 
-            /* Nested for loop
-             * Using for loop inside the scope of for loop */
-            for(int outer=0; outer <2; outer ++){
-                for(int inner=3; inner > 0; inner --){
-                    System.out.println("Inner Index" + inner);
+        //     /* Nested for loop
+        //      * Using for loop inside the scope of for loop */
+        //     for(int outer=0; outer <2; outer ++){
+        //         for(int inner=3; inner > 0; inner --){
+        //             System.out.println("Inner Index" + inner);
 
-                }
-                System.out.println("Outer Index" + outer);
-            }
+        //         }
+        //         System.out.println("Outer Index" + outer);
+        //     }
 
 
             /* task
@@ -53,6 +53,13 @@ public class ForLoop {
              * ..
              * 1*10=10
              */
+            // for(int index=1; index<=10; index++){
+            //     System.out.println("10 x " + index + "=" + index*2);
+            // }
+
+
+
+
             // for(int outer=1; outer <=10; outer ++){
             //     for(int inner=1; inner <=10; inner ++){
             //         System.out.println("1 x " + inner +"=" + inner*1);
@@ -62,15 +69,25 @@ public class ForLoop {
             // }
 
 
-            for(int outer=10; outer >=1; outer --){
-                System.out.println("Multiplication of"+outer);
-                for(int inner=1; inner<=10; inner ++){
-                    System.out.println(outer);
-                    System.out.println("x");
-                    System.out.println(inner);
-                    System.out.println("=");
-                    System.out.println(inner * outer);
-                }
+            // for(int outer=10; outer >=1; outer --){
+            //     System.out.println("Multiplication of"+outer);
+            //     for(int inner=1; inner<=10; inner ++){
+            //         System.out.println(outer);
+            //         System.out.println("x");
+            //         System.out.println(inner);
+            //         System.out.println("=");
+            //         System.out.println(inner * outer);
+            //     }
+            // }
+
+
+            // for(;;){
+            //     System.out.println("Pratima");
+            // }
+
+            int i=1;
+            while(i<=5){
+                System.out.println("Prem");
             }
 
         
